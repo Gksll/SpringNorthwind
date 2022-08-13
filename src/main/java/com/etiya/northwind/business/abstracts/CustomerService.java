@@ -19,6 +19,7 @@ public interface CustomerService {
     Result update(UpdateCustomerRequest updateCustomerRequest);
     Result delete(DeleteCustomerRequest deleteCustomerRequest);
     DataResult<List<ListCustomerResponse>> getAll();
+    // denemelik bunu yazıyorum
     DataResult<ReadCustomerResponse> getById(String customerId);
     DataResult<List<ListCustomerResponse>> getAll(Integer pageNo, Integer pageSize);
     DataResult<List<ListCustomerResponse>> getAll(Integer pageNo, Integer pageSize,String field);
