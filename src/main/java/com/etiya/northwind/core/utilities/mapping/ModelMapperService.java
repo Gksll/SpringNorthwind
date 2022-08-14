@@ -1,4 +1,4 @@
-package com.etiya.northwind.core.mapping;
+package com.etiya.northwind.core.utilities.mapping;
 
 import org.modelmapper.ModelMapper;
 

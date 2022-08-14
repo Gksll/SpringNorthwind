@@ -1,4 +1,4 @@
-package com.etiya.northwind.core.mapping.Results;
+package com.etiya.northwind.core.utilities.Results;
 
 public class SuccessDataResult<T> extends DataResult<T> {
 

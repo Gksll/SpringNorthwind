@@ -1,7 +1,7 @@
 package com.etiya.northwind;
 
-import com.etiya.northwind.core.mapping.Results.ErrorDataResult;
-import com.etiya.northwind.core.mapping.exceptions.BusinessException;
+import com.etiya.northwind.core.utilities.Results.ErrorDataResult;
+import com.etiya.northwind.core.utilities.exceptions.BusinessException;
 import org.modelmapper.ModelMapper;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
